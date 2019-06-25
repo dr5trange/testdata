@@ -5,101 +5,43 @@
    "name": "email",
    "children": [
     {
-     "name": "database",
+     "name": "MySQL",
      "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
+      {"name": "table:users , column:email", "value": 100},
+      {"name": "table:customers, column:email", "value": 100},
+     ]
+    },
+    {
+     "name": "MongoDB",
+     "children": [
+      {"name": "collection:orders, document: usr_profile, field:email", "value": 100}
      ]
     },
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
+      {"name": "/log/tomcat/system.log", "value": 300},
+      {"name": "/etc/var/log/temp.log", "value": 300}
      ]
     }
    ]
   },
   {
-   "name": "address",
-   "children": [
-    {
-     "name": "database",
-     "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
-     ]
-    },
-    {
-     "name": "filesystem",
-     "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
-     ]
-    }
-   ]
+   "name": "address"
   },
   {
-   "name": "national_identity",
-   "children": [
-    {
-     "name": "database",
-     "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
-     ]
-    },
-    {
-     "name": "filesystem",
-     "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
-     ]
-    }
-   ]
+   "name": "national_identity"
   },
   {
-   "name": "phone_number",
-   "children": [
-    {
-     "name": "database",
-     "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
-     ]
-    },
-    {
-     "name": "filesystem",
-     "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
-     ]
-    }
-   ]
+   "name": "phone_number"
   },
   {
    "name": "credit_card",
    "children": [
-    {
-     "name": "database",
-     "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
-     ]
-    },
-    {
-     "name": "filesystem",
-     "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
-     ]
-    }
-   ]
+      {"name": "OracleSQL"},
+      {"name": "MSSQL"},
+      {"name": "Cassandra"}
+    ]
   },
   {
    "name": "passwords",
@@ -115,8 +57,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 1000},
-      {"name": "/etc/var/log/temp.log", "value": 1000}
+      {"name": "/log/tomcat/system.log", "value": 300},
+      {"name": "/etc/var/log/temp.log", "value": 300}
      ]
     }
    ]
