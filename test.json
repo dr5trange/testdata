@@ -39,7 +39,7 @@
    "name": "credit_card"
   },
   {
-   "name": "name",
+   "name": "names",
    "children": [
     {
      "name": "database",
