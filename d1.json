@@ -1,0 +1,31 @@
+
+{
+ "name": "user",
+ "children": [
+  {
+   "name": "email",
+   "children": [
+    {
+     "name": "MySQL",
+     "children": [
+      {"name": "table:users, column:email", "value": 100},
+      {"name": "table:customers, column:email", "value": 100}
+     ]
+    },
+    {
+     "name": "MongoDB",
+     "children": [
+      {"name": "collection:orders, document: usr_profile, field:email", "value": 100}
+     ]
+    },
+    {
+     "name": "Filesystem",
+     "children": [
+      {"name": "/log/tomcat/system.log", "value": 100},
+      {"name": "/etc/var/log/temp.log", "value": 100}
+     ]
+    }
+   ]
+  }
+]
+}
