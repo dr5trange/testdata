@@ -26,6 +26,34 @@
      ]
     }
    ]
-  }
+  },
+  {
+   "name": "name",
+   "children": [
+    {
+     "name": "PostgreSQL",
+     "children": [
+      {"name": "table:users, column:name", "value": 100},
+      {"name": "table:customers, column:name", "value": 100},
+      {"name": "table:orders, column:name", "value": 100}
+     ]
+    },
+    {
+     "name": "MongoDB",
+     "children": [
+      {"name": "collection:orders, document: usr_profile, field:name", "value": 100},
+      {"name": "collection:orders, document: txns, field:name", "value": 100},
+      {"name": "collection:creditcards, document: txns, field:name", "value": 100}
+     ]
+    },
+    {
+     "name": "Filesystem",
+     "children": [
+      {"name": "/log/tomcat/system.log", "value": 100},
+      {"name": "/etc/var/log/temp.log", "value": 100}
+     ]
+    }
+   ]
+  },
 ]
 }
