@@ -7,7 +7,7 @@
     {
      "name": "MySQL",
      "children": [
-      {"name": "table:users , column:email", "value": 100},
+      {"name": "table:users, column:email", "value": 100},
       {"name": "table:customers, column:email", "value": 100}
      ]
     },
@@ -18,13 +18,49 @@
      ]
     },
     {
-     "name": "filesystem",
+     "name": "Filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 300},
-      {"name": "/etc/var/log/temp.log", "value": 300}
+      {"name": "/log/tomcat/system.log", "value": 100},
+      {"name": "/etc/var/log/temp.log", "value": 100}
      ]
     }
    ]
+  },
+  {
+   "name": "name",
+   "children": [
+    {
+     "name": "PostgreSQL",
+     "children": [
+      {"name": "table:users, column:name", "value": 100},
+      {"name": "table:customers, column:name", "value": 100},
+      {"name": "table:orders, column:name", "value": 100}
+     ]
+    },
+    {
+     "name": "MongoDB",
+     "children": [
+      {"name": "collection:orders, document: usr_profile, field:name", "value": 100},
+      {"name": "collection:orders, document: txns, field:name", "value": 100},
+      {"name": "collection:creditcards, document: txns, field:name", "value": 100}
+     ]
+    },
+    {
+     "name": "Filesystem",
+     "children": [
+      {"name": "/log/tomcat/system.log", "value": 100},
+      {"name": "/etc/var/log/temp.log", "value": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "credit_card",
+   "children": [
+      {"name": "OracleSQL", "value": 100},
+      {"name": "MSSQL", "value": 100},
+      {"name": "Cassandra", "value": 100}
+    ]
   },
   {
    "name": "address"
@@ -36,32 +72,7 @@
    "name": "phone_number"
   },
   {
-   "name": "credit_card",
-   "children": [
-      {"name": "OracleSQL", "value": 100},
-      {"name": "MSSQL", "value": 100},
-      {"name": "Cassandra", "value": 100}
-    ]
+   "name": "passwords"
   },
-  {
-   "name": "passwords",
-   "children": [
-    {
-     "name": "database",
-     "children": [
-      {"name": "user::email", "value": 100},
-      {"name": "customer::email", "value": 100},
-      {"name": "order::email", "value": 100}
-     ]
-    },
-    {
-     "name": "filesystem",
-     "children": [
-      {"name": "/log/tomcat/system.log", "value": 300},
-      {"name": "/etc/var/log/temp.log", "value": 300}
-     ]
-    }
-   ]
-  }
  ]
 }
