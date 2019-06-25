@@ -18,13 +18,25 @@
      ]
     },
     {
-     "name": "filesystem",
+     "name": "Filesystem",
      "children": [
       {"name": "/log/tomcat/system.log", "value": 300},
       {"name": "/etc/var/log/temp.log", "value": 300}
      ]
     }
    ]
+  },
+  {
+   "name": "address"
+  },
+  {
+   "name": "national_identity"
+  },
+  {
+   "name": "phone_number"
+  },
+  {
+   "name": "credit_card"
   },
   {
    "name": "name",
@@ -45,21 +57,6 @@
      ]
     }
    ]
-  },
-  {
-   "name": "address"
-  },
-  {
-   "name": "national_identity"
-  },
-  {
-   "name": "phone_number"
-  },
-  {
-   "name": "passwords"
-  },
-  {
-   "name": "credit_card"
   }
  ]
 }
