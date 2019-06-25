@@ -57,9 +57,9 @@
   {
    "name": "credit_card",
    "children": [
-      {"name": "OracleSQL", "value": 100},
-      {"name": "MSSQL", "value": 100},
-      {"name": "Cassandra", "value": 100}
+      {"name": "OracleSQL"},
+      {"name": "MSSQL"},
+      {"name": "Cassandra"}
     ]
   },
   {
