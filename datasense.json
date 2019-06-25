@@ -27,7 +27,7 @@
    ]
   },
   {
-   "name": "name",
+   "name": "names",
    "children": [
     {
      "name": "PostgreSQL",
