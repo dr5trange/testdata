@@ -15,8 +15,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
@@ -35,8 +35,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
@@ -55,8 +55,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
@@ -75,8 +75,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
@@ -95,8 +95,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
@@ -115,8 +115,8 @@
     {
      "name": "filesystem",
      "children": [
-      {"name": "/log/tomcat/system.log", "value": 200},
-      {"name": "/etc/var/log/temp.log", "value": 200}
+      {"name": "/log/tomcat/system.log", "value": 1000},
+      {"name": "/etc/var/log/temp.log", "value": 1000}
      ]
     }
    ]
