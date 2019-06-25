@@ -27,18 +27,6 @@
    ]
   },
   {
-   "name": "address"
-  },
-  {
-   "name": "national_identity"
-  },
-  {
-   "name": "phone_number"
-  },
-  {
-   "name": "credit_card"
-  },
-  {
    "name": "passwords",
    "children": [
     {
@@ -57,6 +45,21 @@
      ]
     }
    ]
+  }
+  {
+   "name": "address"
+  },
+  {
+   "name": "national_identity"
+  },
+  {
+   "name": "phone_number"
+  },
+  {
+   "name": "passwords"
+  },
+  {
+   "name": "credit_card"
   }
  ]
 }
