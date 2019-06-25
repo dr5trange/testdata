@@ -27,7 +27,7 @@
    ]
   },
   {
-   "name": "passwords",
+   "name": "name",
    "children": [
     {
      "name": "database",
