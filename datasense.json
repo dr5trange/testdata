@@ -8,7 +8,7 @@
      "name": "MySQL",
      "children": [
       {"name": "table:users , column:email", "value": 100},
-      {"name": "table:customers, column:email", "value": 100},
+      {"name": "table:customers, column:email", "value": 100}
      ]
     },
     {
